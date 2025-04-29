@@ -27,3 +27,23 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Admin/Desktop/PVK/pvk/Presentation/Views/Authorization/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yaXphdGlvblxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/PVK/pvk/Presentation/Views/Home/360Rating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVwzNjBSYXRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/PVK/pvk/Presentation/Views/Home/BehaviorAssessment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZWhhdmlvckFzc2Vzc21lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/PVK/pvk/Presentation/Views/Home/Information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/PVK/pvk/Presentation/Views/Home/MainPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWluUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/PVK/pvk/Presentation/Views/Home/TaskAssessment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYXNrQXNzZXNzbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
