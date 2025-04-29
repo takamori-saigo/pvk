@@ -7,11 +7,4 @@
         <RootNamespace>pvk</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Views\" />
-      <Folder Include="wwwroot\css\" />
-      <Folder Include="wwwroot\js\" />
-    </ItemGroup>
-
 </Project>
