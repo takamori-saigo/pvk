@@ -16,7 +16,6 @@ public class DataBaseContext : DbContext
         _configuration = configuration;
     }
     
-    public DbSet<Role> Roles { get; set; }
     public DbSet<User> Users { get; set; }
     public DbSet<Group> Groups { get; set; }
     public DbSet<Evaluation360> Evaluation360s { get; set; }

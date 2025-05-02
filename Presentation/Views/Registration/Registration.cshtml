@@ -1,0 +1,42 @@
+﻿@model Core.AuthorizationModel.RegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Регистрация</title>
+    <link rel = "stylesheet" href="css/Authorization.css"/>
+</head>
+<body>
+<div>
+    <h2>Регистрация</h2>      
+    <div>
+        <form asp-action="Register" method="post">
+            <div>
+                <label asp-for="Login">Login</label>
+                <input asp-for="Login"/>
+            </div>
+            <div>
+                <label asp-for="Email">email</label>
+                <input asp-for="Email"/>
+            </div>
+            <div>
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password"/>
+            </div>
+            <div>
+                <label asp-for="Role">Роль</label>
+                <select asp-for="Role" asp-items="Html.GetEnumSelectList<Core.Role>()">
+                    <option value="">выберите роль</option>
+                </select>
+            </div>
+            <button type="submit">зарегестрироваться</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

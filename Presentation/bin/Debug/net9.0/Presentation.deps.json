@@ -10,7 +10,8 @@
         "dependencies": {
           "DataAcces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
-          "Microsoft.EntityFrameworkCore.Design": "9.0.4"
+          "Microsoft.EntityFrameworkCore.Design": "9.0.4",
+          "Services": "1.0.0"
         },
         "runtime": {
           "Presentation.dll": {}
@@ -1036,6 +1037,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Services/1.0.0": {
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1604,6 +1613,11 @@
       "sha512": ""
     },
     "DataAcces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

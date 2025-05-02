@@ -2,6 +2,7 @@
 using DataAcces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Services;
 
 namespace pvk.Controllers;
 
@@ -38,7 +39,5 @@ public class AuthorizationController: Controller
         return View(model);
     }
 
-    private bool VerifyPassword(string inputPassword, string passwordHash) => GetHash(inputPassword) == passwordHash;
-
-    private string GetHash(string password) => password.Select(x => x - '0').Select(x => x*355).Sum().ToString();
+    private bool VerifyPassword(string inputPassword, string passwordHash) => HashPassword.MakeHash(inputPassword) == passwordHash;
 }
