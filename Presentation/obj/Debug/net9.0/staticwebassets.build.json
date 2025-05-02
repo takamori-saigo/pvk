@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8sRNsqnEo0pLXwuOQ9Y4eQUpuT05HwR/A4Qz1vSavuE=",
+  "Hash": "IkIKy6+z+8VlWBzDc3ufqnJPoM4a/uyowcjxWmajRrA=",
   "Source": "Presentation",
   "BasePath": "_content/Presentation",
   "Mode": "Default",
@@ -10,38 +10,143 @@
     {
       "Name": "Presentation\\wwwroot",
       "Source": "Presentation",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-5ipweew5fc.gz",
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-ojh0brmcmj.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
-      "RelativePath": "css/Authorization#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "RelativePath": "img/chevron-right#[.{fingerprint=ojh0brmcmj}]?.svg.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "RelatedAsset": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "vqeuco0o3h",
+      "Integrity": "2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css"
+      "OriginalItemSpec": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-56pssy7frj.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "css/Registration#[.{fingerprint=56pssy7frj}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jozac36fep",
+      "Integrity": "3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Registration.css"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-yuq7v3wowh.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "css/Authorization#[.{fingerprint=yuq7v3wowh}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rv2n6qcgdt",
+      "Integrity": "V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Authorization.css"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-pba7kxp8i7.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/pattern#[.{fingerprint=pba7kxp8i7}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ir2o2cn9dx",
+      "Integrity": "AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\pattern.svg"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-bvl1q811z3.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/eye#[.{fingerprint=bvl1q811z3}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3s7mmv6rrp",
+      "Integrity": "HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\eye.svg"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-b5cqly1l8q.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/logo#[.{fingerprint=b5cqly1l8q}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zfh3sskbp6",
+      "Integrity": "8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "css/Authorization#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -52,22 +157,127 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "yuq7v3wowh",
+      "Integrity": "uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Authorization.css"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "css/Registration#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "56pssy7frj",
+      "Integrity": "bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Registration.css"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/chevron-right#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ojh0brmcmj",
+      "Integrity": "1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\chevron-right.svg"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/eye#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bvl1q811z3",
+      "Integrity": "9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\eye.svg"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/logo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5cqly1l8q",
+      "Integrity": "AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "img/pattern#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pba7kxp8i7",
+      "Integrity": "+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pattern.svg"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/Authorization.5ipweew5fc.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-5ipweew5fc.gz",
+      "Route": "css/Authorization.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-yuq7v3wowh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "1.000000000000"
+          "Quality": "0.000855431993"
         }
       ],
       "ResponseHeaders": [
@@ -77,15 +287,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "1168"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 12:30:41 GMT"
+          "Value": "Fri, 02 May 2025 20:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370="
+        }
+      ]
+    },
+    {
+      "Route": "css/Authorization.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370="
+        }
+      ]
+    },
+    {
+      "Route": "css/Authorization.css.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-yuq7v3wowh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Authorization.yuq7v3wowh.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-yuq7v3wowh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000855431993"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1168"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:46:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -105,13 +452,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "W/\"uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "yuq7v3wowh"
         },
         {
           "Name": "label",
@@ -119,13 +466,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370="
         }
       ]
     },
     {
-      "Route": "css/Authorization.5ipweew5fc.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "Route": "css/Authorization.yuq7v3wowh.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -134,7 +481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "3681"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 12:30:41 GMT"
+          "Value": "Fri, 02 May 2025 20:46:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +503,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "yuq7v3wowh"
         },
         {
           "Name": "label",
@@ -164,13 +511,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-uu4r0T1uTX8/G0OtlYF97Pwk4lYZMAcEJZxp6Laf370="
         }
       ]
     },
     {
-      "Route": "css/Authorization.5ipweew5fc.css.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-5ipweew5fc.gz",
+      "Route": "css/Authorization.yuq7v3wowh.css.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-yuq7v3wowh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -179,7 +526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "1168"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 12:30:41 GMT"
+          "Value": "Fri, 02 May 2025 20:46:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -209,7 +556,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "yuq7v3wowh"
         },
         {
           "Name": "label",
@@ -217,18 +564,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-V5zYpcJ5o45M7zGqjcaLJxZts4V2wILfdwJZt0LvdEc="
         }
       ]
     },
     {
-      "Route": "css/Authorization.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-5ipweew5fc.gz",
+      "Route": "css/Registration.56pssy7frj.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-56pssy7frj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "1.000000000000"
+          "Quality": "0.001047120419"
         }
       ],
       "ResponseHeaders": [
@@ -238,15 +585,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "954"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 12:30:41 GMT"
+          "Value": "Fri, 02 May 2025 21:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "56pssy7frj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Registration.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I="
+        }
+      ]
+    },
+    {
+      "Route": "css/Registration.56pssy7frj.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "56pssy7frj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Registration.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I="
+        }
+      ]
+    },
+    {
+      "Route": "css/Registration.56pssy7frj.css.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-56pssy7frj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "954"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:04:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "56pssy7frj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Registration.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Registration.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-56pssy7frj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001047120419"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "954"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:04:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -266,19 +774,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "W/\"bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I="
         }
       ]
     },
     {
-      "Route": "css/Authorization.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "Route": "css/Registration.css",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -287,7 +795,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "3362"
         },
         {
           "Name": "Content-Type",
@@ -295,11 +803,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 12:30:41 GMT"
+          "Value": "Fri, 02 May 2025 21:04:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -309,13 +817,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-bQISRmNGKJUz08xwcUm/8jUz/+Z0AwGZLSUPUgb+B6I="
         }
       ]
     },
     {
-      "Route": "css/Authorization.css.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-5ipweew5fc.gz",
+      "Route": "css/Registration.css.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-56pssy7frj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -324,7 +832,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "954"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +840,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 12:30:41 GMT"
+          "Value": "Fri, 02 May 2025 21:04:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -354,7 +862,1199 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-3ZSSoEcQNv3mYEPQpWXfJY9GiC+IWKYefIlCqYfHEYo="
+        }
+      ]
+    },
+    {
+      "Route": "img/chevron-right.ojh0brmcmj.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-ojh0brmcmj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002604166667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ojh0brmcmj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/chevron-right.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8="
+        }
+      ]
+    },
+    {
+      "Route": "img/chevron-right.ojh0brmcmj.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ojh0brmcmj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/chevron-right.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8="
+        }
+      ]
+    },
+    {
+      "Route": "img/chevron-right.ojh0brmcmj.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-ojh0brmcmj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ojh0brmcmj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/chevron-right.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc="
+        }
+      ]
+    },
+    {
+      "Route": "img/chevron-right.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-ojh0brmcmj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002604166667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8="
+        }
+      ]
+    },
+    {
+      "Route": "img/chevron-right.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1O8xF23F6YY6VTBSKelnJvgn0F/Yv0d3MovCvkR1RU8="
+        }
+      ]
+    },
+    {
+      "Route": "img/chevron-right.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-ojh0brmcmj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2W3K1iiAQ/T8Cyak/+RTSfbdy/LyTpv7K9N//xTJ6Cc="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye.bvl1q811z3.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-bvl1q811z3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001490312966"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvl1q811z3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/eye.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye.bvl1q811z3.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvl1q811z3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/eye.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye.bvl1q811z3.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-bvl1q811z3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvl1q811z3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/eye.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-bvl1q811z3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001490312966"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9+6sQN8vc1M3qIUDotJqIQlwjr3rGGvhKZiXsny3h1w="
+        }
+      ]
+    },
+    {
+      "Route": "img/eye.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-bvl1q811z3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 20:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HV2o9ovSty6l5LGo+5nee3oOUMq5NMsalq97ADN2r6c="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.b5cqly1l8q.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-b5cqly1l8q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001430615165"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:37:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5cqly1l8q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.b5cqly1l8q.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:37:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5cqly1l8q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.b5cqly1l8q.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-b5cqly1l8q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:37:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5cqly1l8q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-b5cqly1l8q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001430615165"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:37:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:37:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AfNuC0YglV6NqGCsllvSZ6CzHaAXYOCb+VbZHyCOafc="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-b5cqly1l8q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:37:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8fhK8yjdgK6yRmQh7m7IAux+7JpzW+ClGuuV11t/xwM="
+        }
+      ]
+    },
+    {
+      "Route": "img/pattern.pba7kxp8i7.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-pba7kxp8i7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000812347685"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:32:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pba7kxp8i7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pattern.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E="
+        }
+      ]
+    },
+    {
+      "Route": "img/pattern.pba7kxp8i7.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:32:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pba7kxp8i7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pattern.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E="
+        }
+      ]
+    },
+    {
+      "Route": "img/pattern.pba7kxp8i7.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-pba7kxp8i7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:32:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pba7kxp8i7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pattern.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/pattern.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-pba7kxp8i7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000812347685"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:32:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E="
+        }
+      ]
+    },
+    {
+      "Route": "img/pattern.svg",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:32:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+4dypt4nDLzobNz1IBFyus9sFiQx7o9oyyzDfQiok2E="
+        }
+      ]
+    },
+    {
+      "Route": "img/pattern.svg.gz",
+      "AssetFile": "C:\\Users\\solid\\OneDrive\\Рабочий стол\\aaa\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-pba7kxp8i7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 19:32:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AjpAmbWNeCjBxYCC1dvcdmJbuN38GzWXtJ8TbREon+Q="
         }
       ]
     }

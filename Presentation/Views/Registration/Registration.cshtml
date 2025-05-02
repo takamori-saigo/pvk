@@ -5,37 +5,65 @@
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
-    <link rel = "stylesheet" href="css/Authorization.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Authorization.css">
 </head>
 <body>
-<div>
-    <h2>Регистрация</h2>      
-    <div>
+<div class="auth-container">
+    <!-- Левая часть -->
+    <div class="auth-form">
+        <div class="logo">
+            <img src="~/img/logo.svg" alt="Logo">
+            <h1>Точка Сбора</h1>
+        </div>
+
         <form asp-action="Register" method="post">
-            <div>
-                <label asp-for="Login">Login</label>
-                <input asp-for="Login"/>
+            <!-- Поле логина -->
+            <div class="input-wrapper">
+                <span class="input-label">LOGIN</span>
+                <input asp-for="Login" type="text" placeholder="Введите логин" />
             </div>
-            <div>
-                <label asp-for="Email">email</label>
-                <input asp-for="Email"/>
+
+            <!-- Поле email -->
+            <div class="input-wrapper">
+                <span class="input-label">EMAIL</span>
+                <input asp-for="Email" type="email" placeholder="Введите email" />
             </div>
-            <div>
-                <label asp-for="Password">Password</label>
-                <input asp-for="Password"/>
+
+            <!-- Поле пароля -->
+            <div class="input-wrapper password-wrapper">
+                <span class="input-label">PASSWORD</span>
+                <input asp-for="Password" type="password" placeholder="••••••••••••••" />
+                <img src="~/img/eye.svg" alt="Показать пароль" class="eye-icon">
             </div>
-            <div>
-                <label asp-for="Role">Роль</label>
+
+            <!-- Поле роли -->
+            <div class="input-wrapper">
+                <span class="input-label">ROLE</span>
                 <select asp-for="Role" asp-items="Html.GetEnumSelectList<Core.Role>()">
-                    <option value="">выберите роль</option>
+                    <option value=""></option>
                 </select>
             </div>
-            <button type="submit">зарегестрироваться</button>
+
+            <!-- Кнопка регистрации -->
+            <button class="login-btn" type="submit">
+                <span class="login-text">Зарегистрироваться</span>
+                <img src="~/img/chevron-right.svg" alt="chevron icon" class="chevron-icon">
+            </button>
         </form>
+
+        <!-- Текст "Уже есть аккаунт?" -->
+        <p class="centered-text">Уже есть аккаунт? <a asp-controller="Authorization" asp-action="Login">LOG IN</a></p>
+    </div>
+
+    <!-- Правая часть с паттерном -->
+    <div class="auth-pattern">
+        <img src="~/img/pattern.svg" alt="Pattern" />
     </div>
 </div>
 </body>

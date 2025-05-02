@@ -14,3 +14,19 @@ C:\Users\gats\Desktop\projects\speech-analytics\pvk\DataAcces\obj\Debug\net9.0\r
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\DataAcces\bin\Debug\net9.0\Core.dll
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\DataAcces\bin\Debug\net9.0\Core.pdb
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\DataAcces\obj\Debug\net9.0\DataAcces.csproj.Up2Date
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\bin\Debug\net9.0\DataAcces.deps.json
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\bin\Debug\net9.0\DataAcces.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\bin\Debug\net9.0\DataAcces.pdb
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\bin\Debug\net9.0\Core.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\bin\Debug\net9.0\Core.pdb
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.csproj.AssemblyReference.cache
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.AssemblyInfoInputs.cache
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.AssemblyInfo.cs
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.sourcelink.json
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.csproj.Up2Date
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\refint\DataAcces.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\DataAcces.pdb
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\DataAcces\obj\Debug\net9.0\ref\DataAcces.dll

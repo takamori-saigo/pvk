@@ -10,3 +10,15 @@ C:\Users\gats\Desktop\projects\speech-analytics\pvk\Services\obj\Debug\net9.0\Se
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Services\obj\Debug\net9.0\refint\Services.dll
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Services\obj\Debug\net9.0\Services.pdb
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Services\obj\Debug\net9.0\ref\Services.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\bin\Debug\net9.0\Services.deps.json
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\bin\Debug\net9.0\Services.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\bin\Debug\net9.0\Services.pdb
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.AssemblyInfoInputs.cache
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.AssemblyInfo.cs
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.sourcelink.json
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\refint\Services.dll
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\Services.pdb
+C:\Users\solid\OneDrive\Рабочий стол\aaa\pvk\Services\obj\Debug\net9.0\ref\Services.dll
