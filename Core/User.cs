@@ -8,7 +8,7 @@ public class User
     public string PasswordHash { get; set; } = null!;
 
     public int RoleId { get; set; }
-    public Role Role { get; set; } = null!;
+    public Role? Role { get; set; } = null!;
 
     public int? GroupId { get; set; }
     public Group? Group { get; set; }

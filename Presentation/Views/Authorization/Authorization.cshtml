@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Core.AuthorizationModel.LoginViewModel
+
+@{
     Layout = null;
 }
 
@@ -11,7 +13,22 @@
 </head>
 <body>
 <div>
-      
+    <div>
+
+        <h2>Вход</h2>
+        <form asp-action="Authorization" method="post">
+            <div>
+                <label asp-for="Login">логин</label>
+                <input asp-for="Login"/>
+            </div>
+            <div>
+                <label asp-for="Password">пароль</label>
+                <input asp-for="Password"/>
+            </div>
+            <button type="submit">войти</button>
+        </form>
+
+    </div>
 </div>
 </body>
 </html>
