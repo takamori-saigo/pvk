@@ -117,23 +117,6 @@ namespace DataAcces.Migrations
                     b.ToTable("Groups");
                 });
 
-            modelBuilder.Entity("Core.Role", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Roles");
-                });
-
             modelBuilder.Entity("Core.Task", b =>
                 {
                     b.Property<int>("Id")
@@ -227,14 +210,15 @@ namespace DataAcces.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("Role")
+                        .HasColumnType("int");
+
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("GroupId");
-
-                    b.HasIndex("RoleId");
 
                     b.ToTable("Users");
                 });
@@ -341,15 +325,7 @@ namespace DataAcces.Migrations
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Core.Role", "Role")
-                        .WithMany("Users")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Group");
-
-                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("Core.Group", b =>
@@ -357,11 +333,6 @@ namespace DataAcces.Migrations
                     b.Navigation("Interns");
 
                     b.Navigation("Tasks");
-                });
-
-            modelBuilder.Entity("Core.Role", b =>
-                {
-                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("Core.Task", b =>

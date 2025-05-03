@@ -1,0 +1,74 @@
+﻿@model Core.AuthorizationModel.RegisterViewModel
+
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+        Context.Response.Redirect("/Profile/Index");
+    }
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Authorization.css">
+</head>
+<body>
+<div class="auth-container">
+    <!-- Левая часть -->
+    <div class="auth-form">
+        <div class="logo">
+            <img src="~/img/logo.svg" alt="Logo">
+            <h1>Точка Сбора</h1>
+        </div>
+
+        <form asp-action="Register" method="post">
+            <!-- Поле логина -->
+            <div class="input-wrapper">
+                <span class="input-label">LOGIN</span>
+                <input asp-for="Login" type="text" placeholder="Введите логин" />
+            </div>
+
+            <!-- Поле email -->
+            <div class="input-wrapper">
+                <span class="input-label">EMAIL</span>
+                <input asp-for="Email" type="email" placeholder="Введите email" />
+            </div>
+
+            <!-- Поле пароля -->
+            <div class="input-wrapper password-wrapper">
+                <span class="input-label">PASSWORD</span>
+                <input asp-for="Password" type="password" placeholder="••••••••••••••" />
+                <img src="~/img/eye.svg" alt="Показать пароль" class="eye-icon">
+            </div>
+
+            <!-- Поле роли -->
+            <div class="input-wrapper">
+                <span class="input-label">ROLE</span>
+                <select asp-for="Role" asp-items="Html.GetEnumSelectList<Core.Role>()">
+                    <option value=""></option>
+                </select>
+            </div>
+
+            <!-- Кнопка регистрации -->
+            <button class="login-btn" type="submit">
+                <span class="login-text">Зарегистрироваться</span>
+                <img src="~/img/chevron-right.svg" alt="chevron icon" class="chevron-icon">
+            </button>
+        </form>
+
+        <!-- Текст "Уже есть аккаунт?" -->
+        <p class="centered-text">Уже есть аккаунт? <a asp-controller="Authorization" asp-action="Authorization">LOG IN</a></p>
+    </div>
+
+    <!-- Правая часть с паттерном -->
+    <div class="auth-pattern">
+        <img src="~/img/pattern.svg" alt="Pattern" />
+    </div>
+</div>
+</body>
+</html>

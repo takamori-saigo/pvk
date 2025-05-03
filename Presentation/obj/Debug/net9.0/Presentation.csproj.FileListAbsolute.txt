@@ -106,7 +106,6 @@ C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\DataAcces.dll
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\DataAcces.pdb
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\scopedcss\bundle\Presentation.styles.css
-C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\cowx6rjh41-5ipweew5fc.gz
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -203,3 +202,11 @@ C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\Services.dll
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\bin\Debug\net9.0\Services.pdb
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\cowx6rjh41-hiqsa4fjcg.gz
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\26wgau55iy-15ou2kaq7r.gz
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\075cjyiqpn-6v7a2m8dz3.gz
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\hgmgygwl6g-vs636ej1m3.gz
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\rmaet1ze33-q06q8gff27.gz
+C:\Users\gats\Desktop\projects\speech-analytics\pvk\Presentation\obj\Debug\net9.0\compressed\h1br2gpkso-v3rp6yzu77.gz

@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\css\\Authorization.css"
     },
     {
+      "Id": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "PackagePath": "staticwebassets\\css\\Registration.css"
+    },
+    {
+      "Id": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\img\\chevron-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "PackagePath": "staticwebassets\\img\\eye.svg"
+    },
+    {
+      "Id": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "PackagePath": "staticwebassets\\img\\pattern.svg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

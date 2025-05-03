@@ -1,33 +1,58 @@
 ﻿@model Core.AuthorizationModel.LoginViewModel
 
 @{
+    if (User.Identity.IsAuthenticated)
+    {
+        Context.Response.Redirect("/Profile/Index");
+    }
     Layout = null;
 }
 
 <!DOCTYPE html>
-
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Авторизация</title>
-    <link rel = "stylesheet" href="css/Authorization.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Authorization.css">
 </head>
 <body>
-<div>
-    <div>
+<div class="auth-container">
+    <!-- Левая часть -->
+    <div class="auth-form">
+        <div class="logo">
+            <img src="~/img/logo.svg" alt="Logo">
+            <h1>Точка Сбора</h1>
+        </div>
 
-        <h2>Вход</h2>
         <form asp-action="Authorization" method="post">
-            <div>
-                <label asp-for="Login">логин</label>
-                <input asp-for="Login"/>
+            <!-- Поле логина -->
+            <div class="input-wrapper">
+                <span class="input-label">LOGIN</span>
+                <input asp-for="Login" type="text" placeholder="Введите логин" />
             </div>
-            <div>
-                <label asp-for="Password">пароль</label>
-                <input asp-for="Password"/>
+
+            <!-- Поле пароля -->
+            <div class="input-wrapper password-wrapper">
+                <span class="input-label">PASSWORD</span>
+                <input asp-for="Password" type="password" placeholder="••••••••••••••" />
+                <img src="~/img/eye.svg" alt="Показать пароль" class="eye-icon">
             </div>
-            <button type="submit">войти</button>
+
+            <button class="login-btn" type="submit">
+                <span class="login-text">Войти</span>
+                <img src="~/img/chevron-right.svg" alt="chevron icon" class="chevron-icon">
+            </button>
         </form>
 
+        <!-- Текст "Нет аккаута?" -->
+        <p class="centered-text">Нет аккаунта? <a asp-controller="Registration" asp-action="Register">SIGN UP</a></p>
+    </div>
+
+    <!-- Правая часть с паттерном -->
+    <div class="auth-pattern">
+        <img src="~/img/pattern.svg" alt="Pattern" />
     </div>
 </div>
 </body>
