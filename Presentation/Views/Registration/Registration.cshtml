@@ -3,7 +3,7 @@
 @{
     if (User.Identity.IsAuthenticated)
     {
-        Context.Response.Redirect("/Profile/Index");
+        Context.Response.Redirect("/Home/Index");
     }
     Layout = null;
 }

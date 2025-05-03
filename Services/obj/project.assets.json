@@ -1425,11 +1425,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\gats\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Services\\obj\\",
+      "outputPath": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

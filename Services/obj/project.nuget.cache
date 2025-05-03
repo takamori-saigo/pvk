@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qr5U5I/WNkw=",
+  "dgSpecHash": "/20O9IkJe1M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gats\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\gats\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

@@ -1,12 +1,14 @@
 using DataAcces;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using NLog.Web;
 using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DataBaseContext>();
-
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
 builder.Services.AddCustomCookieAuthentication();
 
 var app = builder.Build();

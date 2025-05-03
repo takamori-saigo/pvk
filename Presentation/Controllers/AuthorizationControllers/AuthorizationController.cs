@@ -1,4 +1,4 @@
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Core;
 using Core.AuthorizationModel;
 using DataAcces;
@@ -11,49 +11,44 @@ using Task = System.Threading.Tasks.Task;
 
 namespace pvk.Controllers;
 
-public class RegistrationController : Controller
+public class AuthorizationController: Controller
 {
     private readonly DataBaseContext _context;
-    public RegistrationController(DataBaseContext context)
+    public AuthorizationController(DataBaseContext context)
     {
         _context = context;
     }
     
-    [HttpGet]
     [AllowAnonymous]
-    public IActionResult Register()
+    [HttpGet]
+    public IActionResult Authorization()
     {
-        return View("Registration");
+        return View();
     }
 
     [HttpPost]
+    [AllowAnonymous]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Register(RegisterViewModel model)
+    public async Task<IActionResult> Authorization(LoginViewModel model)
     {
-        if (_context.Users.Any(x => x.Email == model.Email))
+        var user = _context.Users.FirstOrDefault(u => u.Login == model.Login);
+        if (user == null) return View(model);
+
+        if (!VerifyPassword(model.Password, user.PasswordHash))
         {
-            Console.WriteLine("такой пользователь уже есть");
             return View(model);
         }
-        
-        var user = new User
-        {
-            Email = model.Email,
-            PasswordHash = HashPassword.MakeHash(model.Password),
-            Login = model.Login,
-            Role = model.Role
-        };
-        Console.WriteLine("регистрация прошла успешно");
-        _context.Users.Add(user);
-        _context.SaveChanges();
+
         await SignInUserAsync(user);
-        return RedirectToAction("Index", "Profile");
+
+        return RedirectToAction("Index", "Home");
     }
-    
+
     public async Task SignInUserAsync(User user)
     {
         var claims = new List<Claim>
         {
+            new Claim(ClaimTypes.Role, user.Role.ToString()),
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new Claim(ClaimTypes.Name, user.Login),
         };
@@ -67,4 +62,14 @@ public class RegistrationController : Controller
                 ExpiresUtc = DateTime.UtcNow.AddDays(7)
             });
     }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        return RedirectToAction("Authorization", "Authorization");
+    }
+
+    private bool VerifyPassword(string inputPassword, string passwordHash) => HashPassword.MakeHash(inputPassword) == passwordHash;
 }

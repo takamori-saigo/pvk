@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u/kjqS9kcq1NrEM/kwdS44V6PB6+Wm4ZKSDT3Si8qoU=",
+  "Hash": "yd1nC3Zw/e7cWKNeS3+IR4v2PyD+2TcbM9GuecLuP5g=",
   "Source": "Presentation",
   "BasePath": "_content/Presentation",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Presentation\\wwwroot",
       "Source": "Presentation",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/chevron-right#[.{fingerprint=6v7a2m8dz3}]?.svg.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "RelatedAsset": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xb1yj5rjm0",
       "Integrity": "PdJPVNtmmY51/QbWoI3s4cE/unzBMdYlZO0BUCtJCb8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg"
+      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "css/Registration#[.{fingerprint=15ou2kaq7r}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "RelatedAsset": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "4b0gus1has",
       "Integrity": "cHz+WXQTG2rXQvbh9AhilknoKMWVZ0Z0+Dzhesle8bE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Registration.css"
+      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Registration.css"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "css/Authorization#[.{fingerprint=hiqsa4fjcg}]?.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "RelatedAsset": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "835116rbkr",
       "Integrity": "BLlduT/IQ3tOVEntBcjazlYPvKXa0oizsw2GN/40j30=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css"
+      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Authorization.css"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/pattern#[.{fingerprint=v3rp6yzu77}]?.svg.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "RelatedAsset": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "i2wpcov0tv",
       "Integrity": "mkpRadgb8XFvpRG+bcw0bgKJYihTC1bxaXHggy27tyw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\pattern.svg"
+      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\pattern.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/eye#[.{fingerprint=vs636ej1m3}]?.svg.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "RelatedAsset": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "8atjoztc7q",
       "Integrity": "AG/43pKA/JZNr+ld9FGyUoDqvcQeEehB8sfBa7Xpwo4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\eye.svg"
+      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\eye.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/logo#[.{fingerprint=q06q8gff27}]?.svg.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "RelatedAsset": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "eraogql5go",
       "Integrity": "hmsMhPvkl4+VjyJKMZPy1GG+lFz7P2Jrq17dArO+N9Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\logo.svg"
+      "OriginalItemSpec": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "css/Authorization#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Authorization.css"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "css/Registration#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Registration.css"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/chevron-right#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\img\\chevron-right.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/eye#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\eye.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/logo#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "Identity": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\",
       "BasePath": "_content/Presentation",
       "RelativePath": "img/pattern#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -272,7 +272,7 @@
   "Endpoints": [
     {
       "Route": "css/Authorization.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -295,7 +295,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:24:33 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -327,7 +327,7 @@
     },
     {
       "Route": "css/Authorization.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -348,7 +348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:24:33 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -364,7 +364,7 @@
     },
     {
       "Route": "css/Authorization.css.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -385,7 +385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:24:33 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -409,7 +409,7 @@
     },
     {
       "Route": "css/Authorization.hiqsa4fjcg.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -432,7 +432,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:24:33 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -472,7 +472,7 @@
     },
     {
       "Route": "css/Authorization.hiqsa4fjcg.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -493,7 +493,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:24:33 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -517,7 +517,7 @@
     },
     {
       "Route": "css/Authorization.hiqsa4fjcg.css.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\cowx6rjh41-hiqsa4fjcg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -538,7 +538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:24:33 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -570,7 +570,7 @@
     },
     {
       "Route": "css/Registration.15ou2kaq7r.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -593,7 +593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:39:03 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -633,7 +633,7 @@
     },
     {
       "Route": "css/Registration.15ou2kaq7r.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -654,7 +654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:39:03 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -678,7 +678,7 @@
     },
     {
       "Route": "css/Registration.15ou2kaq7r.css.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -699,7 +699,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:39:03 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -731,7 +731,7 @@
     },
     {
       "Route": "css/Registration.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -754,7 +754,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:39:03 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -786,7 +786,7 @@
     },
     {
       "Route": "css/Registration.css",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -807,7 +807,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:39:03 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -823,7 +823,7 @@
     },
     {
       "Route": "css/Registration.css.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\26wgau55iy-15ou2kaq7r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -844,7 +844,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:39:03 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -868,7 +868,7 @@
     },
     {
       "Route": "img/chevron-right.6v7a2m8dz3.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -891,7 +891,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -931,7 +931,7 @@
     },
     {
       "Route": "img/chevron-right.6v7a2m8dz3.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -952,7 +952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -976,7 +976,7 @@
     },
     {
       "Route": "img/chevron-right.6v7a2m8dz3.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -997,7 +997,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1029,7 +1029,7 @@
     },
     {
       "Route": "img/chevron-right.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1052,7 +1052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1084,7 +1084,7 @@
     },
     {
       "Route": "img/chevron-right.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1105,7 +1105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1121,7 +1121,7 @@
     },
     {
       "Route": "img/chevron-right.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\075cjyiqpn-6v7a2m8dz3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1142,7 +1142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1166,7 +1166,7 @@
     },
     {
       "Route": "img/eye.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1189,7 +1189,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1221,7 +1221,7 @@
     },
     {
       "Route": "img/eye.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1242,7 +1242,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1258,7 +1258,7 @@
     },
     {
       "Route": "img/eye.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1279,7 +1279,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1303,7 +1303,7 @@
     },
     {
       "Route": "img/eye.vs636ej1m3.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1326,7 +1326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1366,7 +1366,7 @@
     },
     {
       "Route": "img/eye.vs636ej1m3.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1387,7 +1387,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1411,7 +1411,7 @@
     },
     {
       "Route": "img/eye.vs636ej1m3.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\hgmgygwl6g-vs636ej1m3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1432,7 +1432,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1464,7 +1464,7 @@
     },
     {
       "Route": "img/logo.q06q8gff27.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1487,7 +1487,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1527,7 +1527,7 @@
     },
     {
       "Route": "img/logo.q06q8gff27.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1548,7 +1548,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1572,7 +1572,7 @@
     },
     {
       "Route": "img/logo.q06q8gff27.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1593,7 +1593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1625,7 +1625,7 @@
     },
     {
       "Route": "img/logo.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1648,7 +1648,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1680,7 +1680,7 @@
     },
     {
       "Route": "img/logo.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1701,7 +1701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1717,7 +1717,7 @@
     },
     {
       "Route": "img/logo.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\rmaet1ze33-q06q8gff27.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1738,7 +1738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1762,7 +1762,7 @@
     },
     {
       "Route": "img/pattern.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1785,7 +1785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1817,7 +1817,7 @@
     },
     {
       "Route": "img/pattern.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1838,7 +1838,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1854,7 +1854,7 @@
     },
     {
       "Route": "img/pattern.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1875,7 +1875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1899,7 +1899,7 @@
     },
     {
       "Route": "img/pattern.v3rp6yzu77.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1922,7 +1922,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1962,7 +1962,7 @@
     },
     {
       "Route": "img/pattern.v3rp6yzu77.svg",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1983,7 +1983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2007,7 +2007,7 @@
     },
     {
       "Route": "img/pattern.v3rp6yzu77.svg.gz",
-      "AssetFile": "C:\\Users\\gats\\Desktop\\projects\\speech-analytics\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
+      "AssetFile": "C:\\Users\\gats\\Desktop\\tt\\pvk\\Presentation\\obj\\Debug\\net9.0\\compressed\\h1br2gpkso-v3rp6yzu77.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2028,7 +2028,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 21:30:39 GMT"
+          "Value": "Sat, 03 May 2025 10:52:08 GMT"
         },
         {
           "Name": "Cache-Control",
