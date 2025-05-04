@@ -21,6 +21,7 @@
     @if (User.IsInRole("admin"))
     {
         <div><h2><a asp-action="AdminPanel" asp-controller="Admin">Добавить в группу студентов</a></h2></div>
+        <div><h2><a asp-action="CreateGroup" asp-controller="Admin">Создать группу</a></h2></div>
     }
 </div>
 <form asp-controller="Authorization" asp-action="Logout" method="post">

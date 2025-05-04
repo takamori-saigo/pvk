@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Core;
 using DataAcces;
 using Microsoft.AspNetCore.Authorization;
@@ -26,7 +27,8 @@ public class AdminController: Controller
             query = query.Where(u => u.Login.Contains(searchTerm));
         }
 
-        ViewBag.Groups = _context.Groups.ToList(); 
+        var user = FindAdmin();
+        ViewBag.Groups = _context.Groups.Where(x => user.Id == x.ManagerId).ToList(); 
         var users = query.ToList();
         return View("AddInternsInGroup", users);
     }
@@ -36,5 +38,34 @@ public class AdminController: Controller
     public async Task<IActionResult> AddToGroup(int userId, int groupId)
     {
         return RedirectToAction("AdminPanel", new { searchTerm = TempData["LastSearch"] });
+    }
+
+    [HttpGet]
+    [Authorize(Roles = "admin")]
+    public IActionResult CreateGroup()
+    {
+        return View("CreateGroup");
+    }
+    
+    [HttpPost]
+    [Authorize(Roles = "admin")]
+    public IActionResult CreateGroup(string nameOfGroup)
+    {
+        var user = FindAdmin();
+        _context.Groups.Add(new Group
+        {
+            Name = nameOfGroup,
+            ManagerId =user.Id,
+            Manager = user
+        });
+        _context.SaveChanges();
+        return View();
+    }
+
+    private User FindAdmin()
+    {
+        var userId = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+        var user = _context.Users.First(u => u.Id == userId);
+        return user;
     }
 }

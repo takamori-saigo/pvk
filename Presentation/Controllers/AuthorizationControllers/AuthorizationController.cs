@@ -51,6 +51,7 @@ public class AuthorizationController: Controller
             new Claim(ClaimTypes.Role, user.Role.ToString()),
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new Claim(ClaimTypes.Name, user.Login),
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
         };
 
         await HttpContext.SignInAsync(
