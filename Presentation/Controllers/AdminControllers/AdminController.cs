@@ -37,7 +37,10 @@ public class AdminController: Controller
     [Authorize(Roles = "admin")]
     public async Task<IActionResult> AddToGroup(int userId, int groupId)
     {
-        return RedirectToAction("AdminPanel", new { searchTerm = TempData["LastSearch"] });
+         var user = await _context.Users.FindAsync(userId);
+         user.GroupId = groupId;
+         await _context.SaveChangesAsync();
+         return RedirectToAction("AdminPanel", new { searchTerm = TempData["LastSearch"] });
     }
 
     [HttpGet]

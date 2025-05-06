@@ -41,7 +41,7 @@ public class AuthorizationController: Controller
 
         await SignInUserAsync(user);
 
-        return RedirectToAction("Index", "Home");
+        return RedirectToAction("Index", "Home", user);
     }
 
     public async Task SignInUserAsync(User user)
