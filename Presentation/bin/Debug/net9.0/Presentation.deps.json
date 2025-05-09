@@ -1208,6 +1208,7 @@
       },
       "Services/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication": "2.3.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.3.0"
         },

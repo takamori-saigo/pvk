@@ -1,0 +1,47 @@
+@model IEnumerable<Core.Group>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Выбор стажера</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Ваши группы</th>
+            </tr>
+            </thead>
+            <tbody>
+            @{
+            var counter = 1;
+            }
+            @foreach (var group in Model)
+            {
+                <tr>
+                    <td>@counter</td>
+                    <td>
+                        <form asp-controller="Management" asp-action="GetGroupUsers" method="get">
+                            <input type="hidden" name="groupId" value="@group.Id" />
+                            <button type="submit">@group.Name</button>
+                        </form>
+                    </td>
+                </tr>
+                counter++;
+            }
+            </tbody>
+        </table>
+    }
+</div>
+</body>
+</html>

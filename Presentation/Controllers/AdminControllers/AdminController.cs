@@ -1,4 +1,4 @@
-using System.Security.Claims;
+using  System.Security.Claims;
 using Core;
 using DataAcces;
 using Microsoft.AspNetCore.Authorization;
@@ -40,6 +40,7 @@ public class AdminController: Controller
          var user = await _context.Users.FindAsync(userId);
          user.GroupId = groupId;
          await _context.SaveChangesAsync();
+         
          return RedirectToAction("AdminPanel", new { searchTerm = TempData["LastSearch"] });
     }
 
@@ -63,6 +64,11 @@ public class AdminController: Controller
         });
         _context.SaveChanges();
         return View();
+    }
+
+    public IActionResult Management()
+    {
+        return RedirectToAction("GroupList", "Management");
     }
 
     private User FindAdmin()

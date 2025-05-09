@@ -34,3 +34,15 @@ C:\Users\gats\Desktop\практика\pvk\Core\obj\Debug\net9.0\Core.dll
 C:\Users\gats\Desktop\практика\pvk\Core\obj\Debug\net9.0\refint\Core.dll
 C:\Users\gats\Desktop\практика\pvk\Core\obj\Debug\net9.0\Core.pdb
 C:\Users\gats\Desktop\практика\pvk\Core\obj\Debug\net9.0\ref\Core.dll
+C:\Users\Admin\Desktop\PVK\pvk\Core\bin\Debug\net9.0\Core.deps.json
+C:\Users\Admin\Desktop\PVK\pvk\Core\bin\Debug\net9.0\Core.dll
+C:\Users\Admin\Desktop\PVK\pvk\Core\bin\Debug\net9.0\Core.pdb
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.sourcelink.json
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.dll
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\refint\Core.dll
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\Core.pdb
+C:\Users\Admin\Desktop\PVK\pvk\Core\obj\Debug\net9.0\ref\Core.dll

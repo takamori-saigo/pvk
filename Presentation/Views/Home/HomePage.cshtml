@@ -25,6 +25,9 @@
             <h2><a asp-action="AdminPanel" asp-controller="Admin">Добавить в группу студентов</a></h2></div>
         <div>
             <h2><a asp-action="CreateGroup" asp-controller="Admin">Создать группу</a></h2></div>
+        <div>
+            <h2><a asp-action="Management" asp-controller="Admin">Выберите стажера</a></h2>
+        </div>
     }
 </div>
 <h2>@if (Model.Name == null || Model.Surname == null)
