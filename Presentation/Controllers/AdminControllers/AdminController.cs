@@ -71,6 +71,21 @@ public class AdminController: Controller
         return RedirectToAction("GroupList", "Management");
     }
 
+    public IActionResult Eval360()
+    {
+        return View();
+    }
+
+    public IActionResult Eval361()
+    {
+        return View();
+    }
+
+    public IActionResult EvalTasks()
+    {
+        return View();
+    }
+
     private User FindAdmin()
     {
         var userId = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));

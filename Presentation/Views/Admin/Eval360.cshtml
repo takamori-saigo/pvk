@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Точка Сбора - Оценка стажеров</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="~/css/Eval.css" />
+</head>
+<body>
+  <div class="layout" style="margin-left:318px;">
+    <!-- Левая панель -->
+    <aside class="sidebar">
+      <div class="logo">Точка Сбора</div>
+      <div class="sidebar-buttons">
+        <button class="sidebar-btn active-button">Оценка ПВК</button>
+        <button class="sidebar-btn">Стажеры</button>
+        <button class="sidebar-btn">Группа</button>
+      </div>
+    </aside>
+
+    <!-- Верхняя панель -->
+    <header class="top-bar">
+      <div class="ellipse1">
+        <div class="ellipse34">
+          <div class="avatar-image"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <main class="main-content">
+        <button class="back-btn">Вернуться</button>
+        <div class="white-container">
+          <div class="evaluation-360">
+            <h1>Оценка 360</h1>
+            <div class="profile">
+              <div class="profile-avatar">
+                <img src="~/img/image.png" alt="Profile">
+              </div>
+              <div class="profile-info">
+                <h2>Иванов Иван Иванович</h2>
+                <p>Разработчик ПО</p>
+              </div>
+            </div>
+
+            <div class="evaluation-form">
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Вовлечённость</h3>
+                  <div class="hint">
+                    ?
+                    <div class="tooltip">1 - Редко высказывается<br>3 - Участвует в обсуждениях<br>5 - Предлагает нестандартные решения</div>
+                  </div>
+                </div>
+                <div class="rating">
+
+                  <div class="rating-scale">
+                    <label><input type="radio" name="involvement" value="1"><span>1</span></label>
+                    <label><input type="radio" name="involvement" value="2"><span>2</span></label>
+                    <label><input type="radio" name="involvement" value="3"><span>3</span></label>
+                    <label><input type="radio" name="involvement" value="4"><span>4</span></label>
+                    <label><input type="radio" name="involvement" value="5" checked><span>5</span></label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Организованность</h3>
+                  <div class="hint">
+                    ?
+                    <div class="tooltip">1 – Часто теряет сроки и забывает задачи<br>3 – В целом соблюдает дедлайны, ведёт заметки<br>5 – Чётко планирует, оптимизирует процессы, помогает другим организоваться</div>
+                  </div>
+                </div>
+                <div class="rating-scale">
+                  <label><input type="radio" name="organization" value="1"><span>1</span></label>
+                  <label><input type="radio" name="organization" value="2"><span>2</span></label>
+                  <label><input type="radio" name="organization" value="3"><span>3</span></label>
+                  <label><input type="radio" name="organization" value="4" checked><span>4</span></label>
+                  <label><input type="radio" name="organization" value="5"><span>5</span></label>
+                </div>
+              </div>
+
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Обучаемость</h3>
+                  <div class="hint">
+                    ?
+                    <div class="tooltip">1 – С трудом усваивает новое, часто нуждается в повторных объяснениях<br>3 – Осваивает новое с поддержкой, задаёт уточняющие вопросы<br>5 – Быстро схватывает суть, самостоятельно находит и применяет знания</div>
+                  </div>
+                </div>
+                <div class="rating-scale">
+                  <label><input type="radio" name="learning" value="1"><span>1</span></label>
+                  <label><input type="radio" name="learning" value="2"><span>2</span></label>
+                  <label><input type="radio" name="learning" value="3"><span>3</span></label>
+                  <label><input type="radio" name="learning" value="4"><span>4</span></label>
+                  <label><input type="radio" name="learning" value="5" checked><span>5</span></label>
+                </div>
+              </div>
+
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Командная работа</h3>
+                  <div class="hint">
+                    ?
+                    <div class="tooltip">1 – Предпочитает работать в одиночку, не идёт на контакт<br>3 – Взаимодействует при необходимости, соблюдает деловую этику<br>5 – Активно поддерживает команду, помогает другим, создаёт атмосферу сотрудничества</div>
+                  </div>
+                </div>
+                <div class="rating-scale">
+                  <label><input type="radio" name="teamwork" value="1"><span>1</span></label>
+                  <label><input type="radio" name="teamwork" value="2"><span>2</span></label>
+                  <label><input type="radio" name="teamwork" value="3"><span>3</span></label>
+                  <label><input type="radio" name="teamwork" value="4"><span>4</span></label>
+                  <label><input type="radio" name="teamwork" value="5" checked><span>5</span></label>
+                </div>
+              </div>
+
+              <div class="comment-section">
+                <div class="section-header">
+                  <h3>Комментарий</h3>
+                </div>
+                <div class="textbox-container">
+                  <textarea placeholder="Введите текст..."></textarea>
+                  <svg class="decoration-line" width="177" height="26" viewBox="0 0 177 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.34863 21.3353C16.7638 11.2782 27.0562 4.15953 44.3339 4.15953C48.4199 4.15953 55.2834 2.58076 58.1418 6.18021C63.1535 12.4912 65.5047 18.313 73.9705 20.774C107.776 30.6011 143.594 12.8851 175.117 2.13885" stroke="#BDC3FD" stroke-width="3" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="strengths-section">
+                <div class="section-header">
+                  <h3>Сильные стороны стажера</h3>
+                </div>
+                <div class="textbox-container">
+                  <textarea placeholder="Введите текст..."></textarea>
+                  <svg class="decoration-line" width="111" height="30" viewBox="0 0 111 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.62207 28.2624C15.0355 20.2913 31.857 6.44214 47.3499 2.19752C50.6936 1.28143 53.0784 14.6963 53.7517 16.3731C56.9926 24.4436 62.8134 22.775 70.2138 22.775C79.6243 22.775 101.739 21.3764 108.625 28.2624" stroke="#98DFAF" stroke-width="3" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+
+              <button class="submit-btn">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

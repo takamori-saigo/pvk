@@ -1,28 +1,112 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\AddIntern.css",
+      "PackagePath": "staticwebassets\\css\\AddIntern.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Authorization.css",
       "PackagePath": "staticwebassets\\css\\Authorization.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Eval.css",
+      "PackagePath": "staticwebassets\\css\\Eval.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Group.css",
+      "PackagePath": "staticwebassets\\css\\Group.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\InternInfo.css",
+      "PackagePath": "staticwebassets\\css\\InternInfo.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Registration.css",
       "PackagePath": "staticwebassets\\css\\Registration.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Template.css",
+      "PackagePath": "staticwebassets\\css\\Template.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\Ellipse-1.svg",
+      "PackagePath": "staticwebassets\\img\\Ellipse-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\chevron-right.svg",
       "PackagePath": "staticwebassets\\img\\chevron-right.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\eye.svg",
       "PackagePath": "staticwebassets\\img\\eye.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\image.png",
+      "PackagePath": "staticwebassets\\img\\image.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\logo.svg",
       "PackagePath": "staticwebassets\\img\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\metrics.svg",
+      "PackagePath": "staticwebassets\\img\\metrics.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\pattern.svg",
       "PackagePath": "staticwebassets\\img\\pattern.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 1.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 10.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 10.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 11.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 11.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 12.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 12.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 2.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 3.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 4.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 5.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 6.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 7.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 7.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 8.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 8.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\img\\vectors\\Vector 9.svg",
+      "PackagePath": "staticwebassets\\img\\vectors\\Vector 9.svg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

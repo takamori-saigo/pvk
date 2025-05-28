@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\DataAcces\\DataAcces.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\DataAcces\\DataAcces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Core\\Core.csproj": {
+    "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\DataAcces\\DataAcces.csproj": {
+    "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\DataAcces\\DataAcces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\DataAcces\\DataAcces.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\DataAcces\\DataAcces.csproj",
         "projectName": "DataAcces",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\DataAcces\\DataAcces.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\DataAcces\\DataAcces.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\DataAcces\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\DataAcces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\PVK\\pvk\\Core\\Core.csproj"
+              "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Core\\Core.csproj"
               }
             }
           }

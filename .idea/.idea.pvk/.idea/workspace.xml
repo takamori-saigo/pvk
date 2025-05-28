@@ -9,27 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31ae1ad-46bd-4208-aa9e-213dfbe2068d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Presentation/Controllers/ManagementController/ManagementController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Views/Shared/Management.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Views/Shared/UserSelector.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources/891d6e45-8f5d-4325-ace3-025b0e937735.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources/891d6e45-8f5d-4325-ace3-025b0e937735/storage_v2/_src_/database/Pvk.BTsBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources/891d6e45-8f5d-4325-ace3-025b0e937735/storage_v2/_src_/database/Pvk.BTsBAA/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources/891d6e45-8f5d-4325-ace3-025b0e937735/storage_v2/_src_/database/Pvk.BTsBAA/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/dataSources/891d6e45-8f5d-4325-ace3-025b0e937735/storage_v2/_src_/database/Pvk.BTsBAA/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pvk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/bin/Debug/net9.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Debug/net9.0/Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/bin/Debug/net9.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Debug/net9.0/Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net9.0/Core.sourcelink.json" afterDir="false" />
@@ -45,14 +32,11 @@
       <change beforePath="$PROJECT_DIR$/DataAcces/bin/Debug/net9.0/DataAcces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/bin/Debug/net9.0/DataAcces.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/bin/Debug/net9.0/DataAcces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/bin/Debug/net9.0/DataAcces.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/DataAcces.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/DataAcces.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAcces/obj/DataAcces.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/DataAcces.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/Debug/net9.0/DataAcces.sourcelink.json" afterDir="false" />
@@ -64,8 +48,8 @@
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAcces/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAcces/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Controllers/AdminControllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Controllers/AdminControllers/AdminController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Views/Home/HomePage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Views/Home/HomePage.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/DataAcces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/DataAcces.dll" afterDir="false" />
@@ -78,7 +62,6 @@
       <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Presentation.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Presentation.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/Services.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/bin/Debug/net9.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
@@ -98,15 +81,15 @@
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets.pack.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets/msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets/msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets/msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Debug/net9.0/staticwebassets/msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/Presentation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Presentation.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/obj/Presentation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/Presentation.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Services.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Services.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Services.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net9.0/Services.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.AssemblyInfo.cs" afterDir="false" />
@@ -114,15 +97,12 @@
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/Services.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/ref/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/ref/Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net9.0/refint/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net9.0/refint/Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.packagespec.json" afterDir="false" />
@@ -156,21 +136,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.pvk: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.pvk: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.pvk: http">
     <configuration name="pvk: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Presentation/Presentation.csproj" />
@@ -235,6 +215,9 @@
       <workItem from="1746780027984" duration="443000" />
       <workItem from="1746802365369" duration="209000" />
       <workItem from="1746802584493" duration="3427000" />
+      <workItem from="1748315174155" duration="1759000" />
+      <workItem from="1748416644846" duration="325000" />
+      <workItem from="1748416985684" duration="2560000" />
     </task>
     <servers />
   </component>

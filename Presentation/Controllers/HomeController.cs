@@ -20,6 +20,6 @@ public class HomeController : Controller
     {
         var userId = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
         var user = _context.Users.First(u => u.Id == userId);
-        return View("HomePage", user); 
+        return View("Home", user); 
     }
 }

@@ -1,0 +1,98 @@
+@model Core.User
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Точка Сбора - Оценка стажеров</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="~/css/Home.css"/>
+</head>
+<body>
+  <div class="layout" style="margin-left:318px;">
+    <!-- Левая панель -->
+    <aside class="sidebar">
+      <div class="logo">Точка Сбора</div>
+      <div class="sidebar-buttons">
+        <button class="sidebar-btn active-button" asp-action="" asp-controller="">Оценка ПВК</button>
+        <button class="sidebar-btn" asp-action="" asp-controller="">Стажеры</button>
+        <button class="sidebar-btn" asp-action="" asp-controller="">Группа</button>
+      </div>
+    </aside>
+
+    <!-- Верхняя панель -->
+    <header class="top-bar">
+      <div class="ellipse1">
+        <div class="ellipse34">
+          <div class="avatar-image"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <main class="main-contentt">
+        <div class="main-content">
+        
+        <div class="rectangle7">
+            <div class="intern-label">Стажер</div>
+            <button class="select-intern-text">Выберите стажера</button>
+        </div>
+        <img src="~/img/vectors/Vector 1.svg" class="vector vector-1">
+        
+        <div class="rectangle4">
+            <h2 class="rating-title">Оценка 360</h2>
+            <p class="rating-description">
+              Метод обратной связи, при котором стажёр получает оценку от разных участников проекта
+            </p>
+            <div class="component1">
+                <div class="square involvement">Вовлечённость</div>
+                <div class="square organization">Организованность</div>
+                <div class="square learning">Обучаемость</div>
+                <div class="square teamwork">Командная работа</div>
+                <img src="~/img/vectors/Vector 11.svg" class="vector vector-11">
+                <img src="~/img/vectors/Vector 12.svg" class="vector vector-12">
+            </div>              
+            <a class="evaluate-btn-rect4" asp-action="Eval360" asp-controller="Admin">
+              <span>Оценить</span>
+            </a>
+          </div>
+          <img src="~/img/vectors/Vector 2.svg" class="vector vector-2">
+
+          <div class="rectangle5">
+            <div class="rectangle5-title">Оценка задач</div>
+            <div class="rectangle5-btn btn-objectivity">Объективность</div>
+            <div class="rectangle5-btn btn-speed">Скорость</div>
+            <div class="rectangle5-btn btn-practicality">Практичность</div>
+            <a class="btn-evaluate" asp-action="EvalTasks" asp-controller="Admin">
+                <span>Оценить</span>
+            </a>
+          </div>
+          <img src="~/img/vectors/Vector 3.svg" class="vector vector-3">
+          
+
+          <div class="rectangle6">
+            <div class="rectangle6-title">Оценка поведения</div>
+          
+            <div class="rectangle6-btn btn-rules btn-text">Соблюдение<br>правил</div>
+            <div class="rectangle6-btn btn-communication">Коммуникация</div>
+            <div class="rectangle6-btn btn-understanding">Понимание задач</div>
+          
+            <a class="btn-evaluate-6" asp-action="Eval361" asp-controller="Admin">
+                <span>Оценить</span>
+            </a>
+          </div>
+          
+          <img src="~/img/vectors/Vector 4.svg" class="vector vector-4">
+          <img src="~/img/vectors/Vector 5.svg" class="vector vector-5">
+          <img src="~/img/vectors/Vector 6.svg" class="vector vector-6">
+          <img src="~/img/vectors/Vector 7.svg" class="vector vector-7">
+          <img src="~/img/vectors/Vector 8.svg" class="vector vector-8">
+          <img src="~/img/vectors/Vector 9.svg" class="vector vector-9">
+          <img src="~/img/vectors/Vector 10.svg" class="vector vector-10">
+    </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

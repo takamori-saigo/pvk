@@ -1,0 +1,505 @@
+:root {
+  --sidebar-width: 318px;
+  --topbar-height: 108px;
+  --radius: 16px;
+  --font-main: 'Poppins', sans-serif;
+  --font-logo: 'Kelly Slab', cursive;
+
+  --color-white: #ffffff;
+  --color-black: #1c1c1c;
+  --color-bg-sidebar: #1B1B1B;
+  --color-hover: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+  height: 1080px; /* Высота окна, как в вашем проекте */
+  position: relative;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  width: 318px;
+  height: 100vh;
+  background-color: var(--color-bg-sidebar);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+
+/* Логотип */
+.logo {
+  margin-top: 34px;
+  margin-left: 75px;
+  width: 169px;
+  height: 39px;
+  font-family: var(--font-logo);
+  font-size: 32px;
+  line-height: 39px;
+  white-space: nowrap;
+  border: 0.7px solid transparent;
+}
+
+/* Кнопки панели */
+.sidebar-buttons {
+  margin-top: 95px; /* 168px - логотип */
+  padding-left: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-btn {
+  all: unset;
+  width: 233px;
+  height: 55px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--color-white);
+  font-size: 24px;
+  font-family: var(--font-main);
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-btn:hover {
+  background-color: var(--color-hover);
+}
+
+.active-button {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+/* Верхняя панель */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-width);
+  height: var(--topbar-height);
+  width: calc(100% - var(--sidebar-width));
+  background: var(--color-bg-sidebar);
+  z-index: 10;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 32px; /* Отступ справа */
+}
+
+/* Аватар внутри верхней панели */
+.ellipse1 {
+  width: 100px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse34 {
+  width: 87px;
+  height: 87px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-image {
+  width: 72px;
+  height: 72px;
+  background: url('../img/image.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+/* Основной контент */
+.content-wrapper {
+  position: relative;
+  margin-left: 4px; /* Чтобы компенсировать left: 322 - 318 = 4px */
+  margin-top: 108px;
+  width: calc(100vw - var(--sidebar-width) - 4px); /* Занимает всю ширину минус сайдбар и отступ */
+  height: 972px;
+  background: #F6F6F6;
+  border-radius: 20px 0 0 0;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-content {
+  margin-top: var(--topbar-height);
+  padding: 0px 32px 0 32px; /* Changed padding to be more even */
+  width: 100%;
+  background: #F6F6F6;
+  color: #000;
+  min-height: calc(100vh - var(--topbar-height));
+  border-radius: 20px 0 0 0;
+}
+
+.content-wrapper{
+    margin: 0;
+    padding: 0;
+    background-color:#1B1B1B;
+
+}
+/* Intern Header */
+.intern-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.intern-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intern-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.intern-details h2 {
+  font-size: 24px;
+  margin-bottom: 4px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+
+.intern-details p {
+  color: #666;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ask-button {
+  background: #1B1B1B;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start; /* Align to left instead of right */
+  margin-left: auto; /* Push to right side */
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+
+}
+
+/* Checkboxes */
+.evaluation-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+.checkbox-container input[type="checkbox"] + span::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 5px solid #1B1B1B;
+  border-radius: 8px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.checkbox-container input[type="checkbox"]:checked + span::before {
+  background-color: #1B1B1B;
+  border-color: #1B1B1B;
+}
+
+.checkbox-text {
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+}
+
+/* Metrics */
+.evaluation-section h3 {
+  margin-bottom: 24px;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.metric-item {
+  width: 100%;
+  height: 36px;
+  display: grid;
+  grid-template-columns: 180px 335px 246px;
+  align-items: center;
+  gap: 16px;
+}
+
+.metric-name {
+  color: #737791;
+  width: 180px;
+  white-space: nowrap;
+}
+
+.general-stats .metric-bar{
+  width: 335px;
+  height: 23px;
+  border-radius: 12px;
+  justify-self: start;
+  background: #E0E0E0;
+  margin-left: -50px;
+}
+
+.metric-bar {
+  width: 335px;
+  height: 23px;
+  background: #E0E0E0;
+  border-radius: 12px;
+  margin-left: 65px;
+
+}
+
+.metric-fill {
+  height: 100%;
+  background: #1B1B1B;
+  border-radius: 12px; /* Match parent border-radius */
+
+}
+
+.metric-value {
+  width: 246px;
+  height: 36px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  margin-left: 50px;
+}
+
+/* Strengths Section */
+.strengths-section {
+  margin-top: 5px;
+  margin-left: 24px;
+}
+
+.strengths-section h4 {
+  margin-bottom: 24px;
+}
+
+.comment-box, .notes-box {
+  width: fit-content;
+  min-width: 300px;
+  height: fit-content;
+  background: #F6F6F6;
+  padding: 20px;
+  padding-top:40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.comment-box h5, .notes-box h5 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.comment-box p, .notes-box p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #737791;
+  line-height: 1.5;
+}
+
+/* Chat Layout */
+.chat-layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  padding: 38px 32px;
+  position: relative;
+}
+
+/* Block sizes and positioning */
+.chat-block.intern-block {
+  grid-column: 2 / span 4;
+  width: 521px;
+  height: 161px;
+}
+
+.chat-block.checklist-block {
+  margin-top: 0px;
+  grid-column: 2 / span 4;
+  width: 521px;
+  height: 236px;
+  padding-bottom: 30px;
+  padding-top:10px
+}
+
+.chat-block.evaluation-block {
+  grid-column: 3 / span 8;
+  width: 1067px;
+  min-height: 400px; /* Minimum height instead of fixed height */
+  height: auto; /* Allow content to determine height */
+  margin-top: 40px;
+}
+.evaluation-block h3 {
+  margin-left: 24px;
+}
+
+.ask-button {
+  grid-column: 8 / span 3;
+  width: 372px;
+  height: 68px;
+  margin-top: 202px;
+  padding: 20px;
+  font-size: 20px;
+  justify-self: end;
+}
+
+/* Update existing block styles */
+.chat-block {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.evaluation-options {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+h3, h4 {
+  font-family: Poppins,sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+span{
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Remove or update any existing heading styles that might conflict */
+.evaluation-section h3,
+.strengths-section h4,
+.evaluation-metrics h4{
+  margin: 0;
+  padding: 0;
+}
+
+.general-stats {
+  padding: 0;
+  padding-top: 24px;
+  padding-left: 24px;
+  
+}
+
+.general-stats h4 {
+  width: 216px;
+  height: 36px;
+  margin-bottom: 18px;
+  margin-bottom: 24px;
+  white-space:nowrap;
+}
+
+.evaluation-metrics {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding: 24px;
+  white-space:nowrap;
+}
+
+.evaluation-metrics h4 {
+  width: 307px;
+  height: 36px;
+  margin-bottom: 18px;
+  white-space:nowrap;
+}
+
+.checkbox-text {
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+}
+
+.task-info {
+  margin-top:0px;
+  padding: 24px;
+  margin-top: 0%;
+  padding-bottom: 0px;
+
+}
+
+.task-info h4 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.task-info p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #737791;
+}

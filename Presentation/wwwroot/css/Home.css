@@ -1,0 +1,483 @@
+:root {
+  --sidebar-width: 318px;
+  --topbar-height: 108px;
+  --radius: 16px;
+  --font-main: 'Poppins', sans-serif;
+  --font-logo: 'Kelly Slab', cursive;
+
+  --color-white: #ffffff;
+  --color-black: #1c1c1c;
+  --color-bg-sidebar: #1B1B1B;
+  --color-hover: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+  height: 1080px; /* Высота окна, как в вашем проекте */
+  position: relative;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  width: 318px;
+  height: 100vh;
+  background-color: var(--color-bg-sidebar);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+
+/* Логотип */
+.logo {
+  margin-top: 34px;
+  margin-left: 75px;
+  width: 169px;
+  height: 39px;
+  font-family: var(--font-logo);
+  font-size: 32px;
+  line-height: 39px;
+  white-space: nowrap;
+  border: 0.7px solid transparent;
+}
+
+/* Кнопки панели */
+.sidebar-buttons {
+  margin-top: 95px; /* 168px - логотип */
+  padding-left: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-btn {
+  all: unset;
+  width: 233px;
+  height: 55px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--color-white);
+  font-size: 24px;
+  font-family: var(--font-main);
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-btn:hover {
+  background-color: var(--color-hover);
+}
+
+.active-button {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+/* Верхняя панель */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-width);
+  height: var(--topbar-height);
+  width: calc(100% - var(--sidebar-width));
+  background: var(--color-bg-sidebar);
+  z-index: 10;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 32px; /* Отступ справа */
+}
+
+
+/* Основной контент */
+.content-wrapper {
+  position: relative;
+  margin-left: 4px; /* Чтобы компенсировать left: 322 - 318 = 4px */
+  margin-top: 108px;
+  width: calc(100vw - var(--sidebar-width) - 4px); /* Занимает всю ширину минус сайдбар и отступ */
+  height: 972px;
+  background: #F6F6F6;
+  border-radius: 20px 0 0 0;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-contentt {
+  width: 100%; /* Уже занимает всю ширину .content-wrapper */
+  background: black;
+  color: #000;
+  border-top-left-radius: 20px;
+}
+
+/* Основной контейнер */
+.main-content {
+  all:unset;
+  position: absolute;
+
+  width: 1602px;
+  height: 972px;
+  background: #F6F6F6;
+
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  border-top-left-radius: 20px;
+}
+
+/* Общие стили для прямоугольников */
+.rectangle7,
+.rectangle4,
+.rectangle5,
+.rectangle6 {
+  position: absolute;
+  background: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.rectangle7 {
+  width: 521px;
+  height: 161px;
+  left: 242px;
+  top: 38px;
+  position: relative; /* заменено для вложенных абсолютных элементов */
+}
+
+.rectangle4 {
+  width: 521px;
+  height: 639px;
+  left: 242px;
+  top: 230px;
+}
+
+.rectangle5 {
+  width: 540px;
+  height: 400px;
+  left: 796px;
+  top: 38px;
+  padding: 20px;
+}
+
+.rectangle6 {
+  width: 540px;
+  height: 400px;
+  left: 796px;
+  top: 469px;
+  padding: 20px;
+}
+
+/* Надписи и заголовки */
+.intern-label {
+  position: absolute;
+  top: -26px;
+  left: -30px;
+  width: 86px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+}
+
+.select-intern-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 220px;
+  height: 36px;
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #B5B5B5;
+  white-space: nowrap;
+  border: none;
+  background: none;
+}
+
+.rating-title,
+.rectangle5-title,
+.rectangle6-title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+  margin: 0;
+}
+
+.rating-title {
+  width: 140px;
+  height: 36px;
+  left: 190px;
+  top: 0;
+}
+
+.rectangle5-title {
+  width: 163px;
+  height: 36px;
+  left: 188px;
+  top: 4px;
+}
+
+.rectangle6-title {
+  width: 224px;
+  height: 36px;
+  left: 158px;
+  top: 2px;
+}
+
+.rating-description {
+  position: absolute;
+  width: 463px;
+  height: 90px;
+  left: 29px;
+  top: 126px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  margin: 0;
+}
+
+/* Компоненты с позиционированием */
+.component1 {
+  position: absolute;
+  width: 419px;
+  height: 186px;
+  left: 51px;
+  top: 267px;
+}
+
+/* Квадраты */
+.square {
+  position: absolute;
+  width: 204px;
+  height: 87px;
+  background: #1B1B1B;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Скругления квадратов */
+.square.involvement {
+  top: 0;
+  left: 0;
+  border-radius: 20px 5px 20px 5px;
+}
+
+.square.organization {
+  top: 0;
+  left: 215px;
+  border-radius: 5px 20px 5px 20px;
+}
+
+.square.learning {
+  top: 99px;
+  left: 0;
+  border-radius: 5px 20px 5px 20px;
+}
+
+.square.teamwork {
+  top: 99px;
+  left: 215px;
+  border-radius: 20px 5px 20px 5px;
+}
+
+/* Кнопки оценок в rectangle5 и rectangle6 */
+.rectangle5-btn,
+.rectangle6-btn {
+  position: absolute;
+  background: #1B1B1B;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* rectangle5 кнопки */
+.btn-objectivity {
+  width: 216px;
+  height: 61px;
+  top: 87px;
+  left: 155px;
+  border-radius: 20px 5px 5px 20px;
+}
+
+.btn-speed {
+  width: 216px;
+  height: 61px;
+  top: 155px;
+  left: 207px;
+  border-radius: 5px 20px 20px 5px;
+}
+
+.btn-practicality {
+  width: 216px;
+  height: 61px;
+  top: 224px;
+  left: 117px;
+  border-radius: 20px 5px 5px 20px;
+}
+
+/* rectangle6 кнопки */
+.btn-rules {
+  width: 216px;
+  height: 73px;
+  top: 75px;
+  left: 175px;
+  border-radius: 5px 20px 20px 5px;
+}
+
+.btn-communication {
+  width: 216px;
+  height: 61px;
+  top: 162px;
+  left: 119px;
+  border-radius: 20px 5px 5px 20px;
+}
+
+.btn-understanding {
+  width: 216px;
+  height: 61px;
+  top: 231px;
+  left: 194px;
+  border-radius: 5px 20px 20px 5px;
+}
+
+/* Кнопки "Оценить" */
+.evaluate-btn-rect4,
+.btn-evaluate,
+.btn-evaluate-6 {
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  user-select: none;
+  color: #000;
+}
+
+.evaluate-btn-rect4 {
+  left: 170px;
+  top: 561px;
+}
+
+.btn-evaluate {
+  left: 180px;
+  top: 317px;
+}
+
+.btn-evaluate-6 {
+  left: 180px;
+  top: 322px;
+}
+
+/* Текст кнопок */
+.evaluate-btn-rect4 span,
+.btn-text {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  user-select: none;
+}
+
+.evaluate-btn-rect4 span {
+  width: 87px;
+  height: 30px;
+  left: 46px;
+  top: 15px;
+  color: #000;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+/* Векторные элементы */
+.vector {
+  position: absolute;
+  pointer-events: none;
+}
+
+.vector-1  { top: 40.11px;   left: 215.1px; }
+.vector-2  { top: 266px;     left: 432px; }
+.vector-3  { top: 78px;      left: 984px; }
+.vector-4  { top: 507px;     left: 954px; }
+.vector-5  { top: 140.15px;  left: 1137.27px; }
+.vector-6  { top: 278.15px;  left: 1122.27px; }
+.vector-7  { top: 200.23px;  left: 1005.22px; }
+.vector-8  { top: 560.45px;  left: 937.2px; }
+.vector-9  { top: 646.84px;  left: 1103.94px; }
+.vector-10 { top: 719.88px;  left: 905.67px; }
+.vector-11 { top: -7.58px;   left: 241.33px; }
+.vector-12 { top: 38px;      left: -16px; }
+
+/* Аватар внутри верхней панели */
+.ellipse1 {
+  width: 100px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse34 {
+  width: 87px;
+  height: 87px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-image {
+  width: 72px;
+  height: 72px;
+  background: url('../img/image.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Точка Сбора - Оценка стажеров</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="~/css/Eval.css" />
+</head>
+<body>
+  <div class="layout" style="margin-left:318px;">
+    <!-- Левая панель -->
+    <aside class="sidebar">
+      <div class="logo">Точка Сбора</div>
+      <div class="sidebar-buttons">
+        <button class="sidebar-btn active-button">Оценка ПВК</button>
+        <button class="sidebar-btn">Стажеры</button>
+        <button class="sidebar-btn">Группа</button>
+      </div>
+    </aside>
+
+    <!-- Верхняя панель -->
+    <header class="top-bar">
+      <div class="ellipse1">
+        <div class="ellipse34">
+          <div class="avatar-image"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <main class="main-content">
+        <button class="back-btn">Вернуться</button>
+        <div class="white-container">
+          <div class="evaluation-360">
+            <h1>Оценка задач</h1>
+            <div class="profile">
+              <div class="profile-avatar">
+                <img src="~/img/image.png" alt="Profile">
+              </div>
+              <div class="profile-info">
+                <h2>Иванов Иван Иванович</h2>
+                <p>Разработчик ПО</p>
+              </div>
+            </div>
+
+            <div class="evaluation-form">
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Задача</h3>
+                </div>
+                <div class="task-input">
+                  <input type="text" placeholder="Введите название..." />
+                </div>
+              </div>
+
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Сроки выполнения</h3>
+                  <div class="hint">
+                    ?
+                    <div class="tooltip">1 - Систематические срывы<br>3 - Изредка не успевает<br>5 - Всегда выполняет вовремя</div>
+                </div>
+                </div>
+                <div class="rating-scale">
+                  <label><input type="radio" name="timing" value="1"><span>1</span></label>
+                  <label><input type="radio" name="timing" value="2"><span>2</span></label>
+                  <label><input type="radio" name="timing" value="3"><span>3</span></label>
+                  <label><input type="radio" name="timing" value="4"><span>4</span></label>
+                  <label><input type="radio" name="timing" value="5" checked><span>5</span></label>
+                </div>
+              </div>
+
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Качество работы</h3>
+                  <div class="hint">
+                    ?
+                    <div class="tooltip">1 – Частые ошибки, требуется доработка<br>3 – В целом качественно, но есть недочёты<br>5 – Высокое качество, соответствует или превышает ожидания</div>
+                </div>
+                </div>
+                <div class="rating-scale">
+                  <label><input type="radio" name="quality" value="1"><span>1</span></label>
+                  <label><input type="radio" name="quality" value="2"><span>2</span></label>
+                  <label><input type="radio" name="quality" value="3"><span>3</span></label>
+                  <label><input type="radio" name="quality" value="4" checked><span>4</span></label>
+                  <label><input type="radio" name="quality" value="5"><span>5</span></label>
+                </div>
+              </div>
+
+              <div class="criteria-block">
+                <div class="criteria-header">
+                  <h3>Сложность задачи</h3>
+                  <div class="hint">
+                    ?
+                     <div class="tooltip">1 – Простая, типовая задача<br>3 – Средней сложности, требует анализа<br>5 – Сложная, нестандартная задача с высокой ответственностью</div>
+                </div>
+                </div>
+                <div class="rating-scale">
+                  <label><input type="radio" name="complexity" value="1"><span>1</span></label>
+                  <label><input type="radio" name="complexity" value="2"><span>2</span></label>
+                  <label><input type="radio" name="complexity" value="3"><span>3</span></label>
+                  <label><input type="radio" name="complexity" value="4"><span>4</span></label>
+                  <label><input type="radio" name="complexity" value="5" checked><span>5</span></label>
+                </div>
+              </div>
+
+              <div class="comment-section">
+                <div class="section-header">
+                  <h3>Комментарий</h3>
+                </div>
+                <div class="textbox-container">
+                  <textarea placeholder="Введите текст..."></textarea>
+                  <svg class="decoration-line" width="177" height="26" viewBox="0 0 177 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.34863 21.3353C16.7638 11.2782 27.0562 4.15953 44.3339 4.15953C48.4199 4.15953 55.2834 2.58076 58.1418 6.18021C63.1535 12.4912 65.5047 18.313 73.9705 20.774C107.776 30.6011 143.594 12.8851 175.117 2.13885" stroke="#BDC3FD" stroke-width="3" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+
+            
+
+              <button class="submit-btn">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
