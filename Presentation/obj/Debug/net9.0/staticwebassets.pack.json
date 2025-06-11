@@ -17,12 +17,20 @@
       "PackagePath": "staticwebassets\\css\\Group.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\GroupForIntern.css",
+      "PackagePath": "staticwebassets\\css\\GroupForIntern.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Home.css",
       "PackagePath": "staticwebassets\\css\\Home.css"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\InternInfo.css",
       "PackagePath": "staticwebassets\\css\\InternInfo.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Profil.css",
+      "PackagePath": "staticwebassets\\css\\Profil.css"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\pvk\\pvk\\Presentation\\wwwroot\\css\\Registration.css",

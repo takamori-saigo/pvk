@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Точка Сбора - Оценка стажеров</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="~/css/GroupForIntern.css" />
+</head>
+<body>
+  <div class="layout" style="margin-left:318px;">
+    <!-- Левая панель -->
+    <aside class="sidebar">
+      <div class="logo">Точка Сбора</div>
+      <div class="sidebar-buttons">
+        <button class="sidebar-btn">Оценка ПВК</button>
+        <button class="sidebar-btn active-button">Группа</button>
+      </div>
+    </aside>
+
+    <!-- Верхняя панель -->
+    <header class="top-bar">
+      <form class="search-bar">
+        <input type="text" placeholder="Поиск" />
+        <button type="submit" class="search-btn" tabindex="-1">
+          <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <circle cx="9" cy="9" r="7.5" stroke="#BDBDBD" stroke-width="1.5"/>
+            <path d="M16 16L13.2 13.2" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </form>
+      <div class="ellipse1">
+        <div class="ellipse34">
+          <div class="avatar-image"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <main class="main-content">
+        <div class="groups-block">
+          <h2>Ваши группы</h2>
+          <div class="group-list">
+            <div class="group-item" onclick="showGroupContent(this, 'ПВК1')">
+              <span class="group-name">ПВК1</span>
+              <span class="group-members">Участников: 1</span>
+            </div>
+            <div class="group-item" onclick="showGroupContent(this, 'ОМТ')">
+              <span class="group-name">ОМТ</span>
+              <span class="group-members">Участников: 0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="group-content" id="groupContent">
+          <div class="group-header">
+          </div>
+          <div class="group-table">
+            <div class="table-header">
+              <span class="col-id">ID</span>
+              <span class="col-name">ФИО</span>
+            </div>
+            <div class="table-row">
+              <span class="col-id">1</span>
+              <span class="col-name">Иванов Иван Иванович</span>
+            </div>
+            <div class="table-row">
+              <span class="col-id">2</span>
+              <span class="col-name">Петриченко Максим Эдуардович</span>
+            </div>
+            <div class="table-row">
+              <span class="col-id">3</span>
+              <span class="col-name">Петриченко Максим Эдуардович</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+<script>
+function showGroupContent(element, groupName) {
+    // Remove active class from all items
+    document.querySelectorAll('.group-item').forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // Add active class to clicked item
+    element.classList.add('active');
+    
+    // Update content
+    const content = document.getElementById('groupContent');
+    content.style.display = 'block';
+    content.querySelector('h2').textContent = groupName;
+}
+</script>
+</html>

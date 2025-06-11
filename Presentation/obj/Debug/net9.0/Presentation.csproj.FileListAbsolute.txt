@@ -743,3 +743,5 @@ C:\Users\Admin\Desktop\pvk\pvk\Presentation\obj\Debug\net9.0\compressed\ngtx3s5n
 C:\Users\Admin\Desktop\pvk\pvk\Presentation\obj\Debug\net9.0\compressed\xs75pk63d0-0nauxiqfdn.gz
 C:\Users\Admin\Desktop\pvk\pvk\Presentation\obj\Debug\net9.0\compressed\qt5i4l9yrn-2rcnpd6t8t.gz
 C:\Users\Admin\Desktop\pvk\pvk\Presentation\obj\Debug\net9.0\compressed\ax51je6v1x-m6j38qhitx.gz
+C:\Users\Admin\Desktop\pvk\pvk\Presentation\obj\Debug\net9.0\compressed\14w8cq3x2m-j45px9w4sh.gz
+C:\Users\Admin\Desktop\pvk\pvk\Presentation\obj\Debug\net9.0\compressed\1gabfxbw25-a4phb0emxc.gz

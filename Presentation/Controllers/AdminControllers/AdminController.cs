@@ -66,9 +66,16 @@ public class AdminController: Controller
         return View();
     }
 
+    
+    // Переделать под  Group
     public IActionResult Management()
     {
         return RedirectToAction("GroupList", "Management");
+    }
+
+    public IActionResult Group()
+    {
+        return View("CreateGroup");
     }
 
     public IActionResult Eval360()
